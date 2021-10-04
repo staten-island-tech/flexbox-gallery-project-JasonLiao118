@@ -1,8 +1,9 @@
-body {
-  text-align: center;
-  background-color: rgb(0, 0, 0);
+body,
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
-
 main {
   width: 900px;
   background: rgb(255, 255, 255);
@@ -24,17 +25,12 @@ img {
   color: rgb(113, 252, 182);
   font: weight 100px;
   font-family: "Trebuchet MS";
-  font-size: 100px;
+  font-size: 90px;
 }
 
-.subtitle {
+.meme {
   font-weight: bold;
   color: rgb(74, 58, 223);
   font-size: 50px;
-}
-
-.blurb {
-  font-weight: 500;
-  color: rgb(3, 110, 75);
   font-family: "Lucida Sans";
 }
