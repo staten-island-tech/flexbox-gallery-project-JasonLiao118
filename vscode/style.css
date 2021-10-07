@@ -6,6 +6,11 @@ body,
   box-sizing: border-box;
   font-size: 62.5%;
 }
+
+body {
+  background-color: rgb(49, 42, 42);
+}
+
 .flex-container {
   width: 180rem;
   height: 180rem;
@@ -19,9 +24,8 @@ body,
   text-align: center;
 }
 
-img {
-  max-width: 75%;
-  max-height: 75%;
+.meme-image {
+  max-height: 30rem;
 }
 
 #mytitle {
@@ -32,11 +36,15 @@ img {
   text-align: center;
 }
 
-.meme {
+.meme-header {
+  font-family: "fantasy";
   font-weight: bold;
-  background-color: rgb(228, 228, 228);
   font-size: 4rem;
-  font-family: "Lucida Sans";
+}
+
+.meme {
+  background-color: rgb(228, 228, 228);
+  font-size: 3rem;
   display: flex;
   padding: 25px;
   height: 50rem;
@@ -47,4 +55,5 @@ img {
   border-radius: 100px;
   box-shadow: 0 1.5rem 4rem rgb(0, 0, 0);
   transition: all 0.3s;
+  margin-top: 3rem;
 }
