@@ -24,12 +24,8 @@ body {
   text-align: center;
 }
 
-.meme-image {
-  max-height: 30rem;
-}
-
-#mytitle {
-  color: rgb(2, 83, 42);
+#Page-title {
+  color: rgb(83, 255, 169);
   font: weight 10rem;
   font-family: "Trebuchet MS";
   font-size: 7rem;
@@ -37,23 +33,27 @@ body {
 }
 
 .meme-header {
-  font-family: "fantasy";
+  font-family: "Franklin Gothic Medium";
   font-weight: bold;
   font-size: 4rem;
+  color: rgba(24, 77, 24, 0.527);
+}
+.meme-image {
+  max-height: 30rem;
 }
 
 .meme {
   background-color: rgb(228, 228, 228);
-  font-size: 3rem;
   display: flex;
   padding: 25px;
   height: 50rem;
+  font-size: 3rem;
+  font-family: Verdana;
   flex-direction: column;
   width: 28%;
   align-items: center;
   justify-content: space-around;
   border-radius: 100px;
   box-shadow: 0 1.5rem 4rem rgb(0, 0, 0);
-  transition: all 0.3s;
   margin-top: 3rem;
 }
