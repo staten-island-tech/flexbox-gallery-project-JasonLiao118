@@ -42,7 +42,7 @@ body {
   max-height: 30rem;
 }
 
-.meme {
+.meme-parent {
   background-color: rgb(228, 228, 228);
   display: flex;
   padding: 25px;
@@ -56,4 +56,9 @@ body {
   border-radius: 100px;
   box-shadow: 0 1.5rem 4rem rgb(0, 0, 0);
   margin-top: 3rem;
+  transition: all 0.3s;
+}
+
+.meme-parent:hover {
+  transform: scale(1.1);
 }
