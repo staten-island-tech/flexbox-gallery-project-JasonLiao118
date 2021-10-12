@@ -59,6 +59,23 @@ body {
   transition: all 0.3s;
 }
 
-.meme-parent:hover {
+.meme-parent:nth-child(1):hover {
+  transform: scaleX(1.1);
+}
+
+.meme-parent:nth-child(2):hover {
+  transform: translateX(5rem);
+}
+
+.meme-parent:nth-child(3):hover {
+  transform: rotateX(45deg);
+}
+
+.meme-parent:nth-child(4):hover {
+  transform: scale(0.7);
+}
+
+.meme-parent:nth-child(5):hover {
   transform: scale(1.1);
+  background-color: rgb(194, 55, 124);
 }
