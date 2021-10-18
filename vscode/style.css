@@ -20,7 +20,7 @@ body {
   text-align: center;
 }
 
-#Page-title {
+.Page-title {
   color: rgb(11, 105, 58);
   font: weight 10rem;
   font-family: "Trebuchet MS";
@@ -87,17 +87,17 @@ body {
 
 @keyframes shrek {
   0% {
-    top: 1%;
+    top: 5%;
     left: 0%;
     opacity: 0%;
   }
   75% {
-    top: 1%;
+    top: 5%;
     left: 70%;
     opacity: 100%;
   }
   100% {
-    top: 1%;
+    top: 5%;
     left: 100%;
     opacity: 0%;
   }
@@ -115,28 +115,28 @@ body {
 
 @keyframes text {
   0% {
-    top: 20%;
-    left: 16%;
+    top: 10%;
+    left: 5%;
     opacity: 0%;
   }
   35% {
-    top: 20%;
-    left: 16%;
+    top: 10%;
+    left: 15%;
     opacity: 0%;
   }
   50% {
-    top: 20%;
-    left: 16%;
+    top: 10%;
+    left: 25%;
     opacity: 100%;
   }
   75% {
-    top: 20%;
-    left: 16%;
+    top: 10%;
+    left: 35%;
     opacity: 100%;
   }
   100% {
-    top: 20%;
-    left: 16%;
+    top: 10%;
+    left: 45%;
     opacity: 0%;
   }
 }
@@ -157,6 +157,9 @@ body {
   .flex-container {
     width: 80%;
   }
+  .Page-title {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width 600px) {
@@ -164,7 +167,7 @@ body {
     width: 100%;
   }
   .meme-image {
-    width: 100%;
+    width: 80%;
   }
   .shrek-animation {
     width: 80%;
@@ -174,5 +177,8 @@ body {
   }
   .flex-container {
     width: 100%;
+  }
+  .Page-title {
+    width: 80%;
   }
 }
