@@ -46,6 +46,7 @@ body {
   height: 50rem;
   font-size: 3rem;
   font-family: Verdana;
+  flex-direction: column;
   width: 28%;
   align-items: center;
   justify-content: space-around;
@@ -141,9 +142,10 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
   .meme-parent {
     width: 40%;
+    background-color: rgb(180, 78, 78);
   }
   .meme-image {
     width: 80%;
@@ -162,18 +164,19 @@ body {
   }
 }
 
-@media screen and (max-width 600px) {
+@media screen and (max-width: 400px) {
   .meme-parent {
-    width: 100%;
+    width: 80%;
+    background-color: rgba(20, 99, 75, 0.459);
   }
   .meme-image {
-    width: 80%;
+    width: 100%;
   }
   .shrek-animation {
-    width: 80%;
+    width: 100%;
   }
   .animation-text {
-    width: 80%;
+    width: 100%;
   }
   .flex-container {
     width: 100%;
