@@ -164,7 +164,7 @@ body {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 428px) {
   .meme-parent {
     width: 80%;
     background-color: rgba(20, 99, 75, 0.459);
